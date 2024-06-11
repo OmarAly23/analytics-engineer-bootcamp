@@ -1,0 +1,253 @@
+[0m08:06:17.379435 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x101c50430>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104a164c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104a16d90>]}
+
+
+============================== 08:06:17.383949 | bc0b145d-f392-48bc-a050-81f5470decdf ==============================
+[0m08:06:17.383949 [info ] [MainThread]: Running with dbt=1.8.1
+[0m08:06:17.384323 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': '/Users/omaraly/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt init ae-bootcamp', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m08:06:17.395496 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': PosixPath('/Users/omaraly/.dbt')}
+[0m08:06:17.395834 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m08:06:36.014558 [debug] [MainThread]: Starter project path: /Users/omaraly/Documents/DataScience_Resources/Courses/analytics_engineering_bootcamp/codebase/analytics-engineer-bootcamp/dbt-env/lib/python3.9/site-packages/dbt/include/starter_project
+[0m08:06:36.020785 [info ] [MainThread]: 
+Your new dbt project "ae_bootcamp" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m08:06:36.021165 [info ] [MainThread]: Setting up your profile.
+[0m08:09:50.465880 [info ] [MainThread]: Profile ae_bootcamp written to /Users/omaraly/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m08:09:50.472055 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 213.14166, "process_user_time": 2.260496, "process_kernel_time": 1.841376, "process_mem_max_rss": "176439296", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m08:09:50.473037 [debug] [MainThread]: Command `dbt init` succeeded at 08:09:50.472897 after 213.14 seconds
+[0m08:09:50.473713 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x101c50430>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1049f02e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104a5e610>]}
+[0m08:09:50.474283 [debug] [MainThread]: Flushing usage events
+[0m08:12:37.818061 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102a174c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104dfdc70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104dfd940>]}
+
+
+============================== 08:12:37.822390 | 06905407-4357-41f1-8020-be19243e9538 ==============================
+[0m08:12:37.822390 [info ] [MainThread]: Running with dbt=1.8.1
+[0m08:12:37.822792 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/omaraly/.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m08:12:37.833322 [info ] [MainThread]: dbt version: 1.8.1
+[0m08:12:37.833653 [info ] [MainThread]: python version: 3.9.6
+[0m08:12:37.833810 [info ] [MainThread]: python path: /Users/omaraly/Documents/DataScience_Resources/Courses/analytics_engineering_bootcamp/codebase/analytics-engineer-bootcamp/dbt-env/bin/python3
+[0m08:12:37.834010 [info ] [MainThread]: os info: macOS-14.3.1-arm64-arm-64bit
+[0m08:12:38.826712 [info ] [MainThread]: Using profiles dir at /Users/omaraly/.dbt
+[0m08:12:38.827066 [info ] [MainThread]: Using profiles.yml file at /Users/omaraly/.dbt/profiles.yml
+[0m08:12:38.827239 [info ] [MainThread]: Using dbt_project.yml file at /Users/omaraly/Documents/DataScience_Resources/Courses/analytics_engineering_bootcamp/codebase/analytics-engineer-bootcamp/dbt_project.yml
+[0m08:12:38.827417 [info ] [MainThread]: adapter type: bigquery
+[0m08:12:38.827566 [info ] [MainThread]: adapter version: 1.8.1
+[0m08:12:38.827758 [info ] [MainThread]: Configuration:
+[0m08:12:38.827900 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m08:12:38.828038 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m08:12:38.828172 [info ] [MainThread]: Required dependencies:
+[0m08:12:38.828406 [debug] [MainThread]: Executing "git --help"
+[0m08:12:38.874700 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m08:12:38.875585 [debug] [MainThread]: STDERR: "b''"
+[0m08:12:38.875840 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m08:12:38.876056 [info ] [MainThread]: Connection:
+[0m08:12:38.876317 [info ] [MainThread]:   method: oauth
+[0m08:12:38.876455 [info ] [MainThread]:   database: arched-memory-418808
+[0m08:12:38.876589 [info ] [MainThread]:   execution_project: arched-memory-418808
+[0m08:12:38.876720 [info ] [MainThread]:   schema: dbt_omar
+[0m08:12:38.876848 [info ] [MainThread]:   location: US
+[0m08:12:38.876983 [info ] [MainThread]:   priority: interactive
+[0m08:12:38.877110 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m08:12:38.877235 [info ] [MainThread]:   impersonate_service_account: None
+[0m08:12:38.877364 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m08:12:38.877492 [info ] [MainThread]:   job_retries: 1
+[0m08:12:38.877620 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m08:12:38.877748 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m08:12:38.877874 [info ] [MainThread]:   timeout_seconds: 300
+[0m08:12:38.878002 [info ] [MainThread]:   client_id: None
+[0m08:12:38.878126 [info ] [MainThread]:   token_uri: None
+[0m08:12:38.878250 [info ] [MainThread]:   dataproc_region: None
+[0m08:12:38.878373 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m08:12:38.878498 [info ] [MainThread]:   gcs_bucket: None
+[0m08:12:38.878622 [info ] [MainThread]:   dataproc_batch: None
+[0m08:12:38.879116 [info ] [MainThread]: Registered adapter: bigquery=1.8.1
+[0m08:12:38.886545 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m08:12:38.887638 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m08:12:41.900264 [debug] [MainThread]: BigQuery adapter: Got an error when attempting to create a bigquery client: 'Runtime Error
+  Failed to authenticate with supplied credentials
+  error:
+  Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.'
+[0m08:12:41.902352 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m08:12:41.902921 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m08:12:41.903158 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </Users/omaraly/Documents/DataScience_Resources/Courses/analytics_engineering_bootcamp/codebase/analytics-engineer-bootcamp/dbt_project.yml> not found
+
+[0m08:12:41.903329 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  Runtime Error
+    Failed to authenticate with supplied credentials
+    error:
+    Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m08:12:41.922576 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 4.1478834, "process_user_time": 2.78079, "process_kernel_time": 1.243541, "process_mem_max_rss": "177995776", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m08:12:41.926390 [debug] [MainThread]: Command `dbt debug` failed at 08:12:41.925863 after 4.16 seconds
+[0m08:12:41.928012 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m08:12:41.929138 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102a174c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x14f0320d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x14f0321f0>]}
+[0m08:12:41.929922 [debug] [MainThread]: Flushing usage events
+[0m08:22:30.071051 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105d78430>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10784dbb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10784d880>]}
+
+
+============================== 08:22:30.074832 | dcfa43cd-3ae9-4679-969a-06456778634c ==============================
+[0m08:22:30.074832 [info ] [MainThread]: Running with dbt=1.8.1
+[0m08:22:30.075175 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/omaraly/.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m08:22:30.083443 [info ] [MainThread]: dbt version: 1.8.1
+[0m08:22:30.083690 [info ] [MainThread]: python version: 3.9.6
+[0m08:22:30.083850 [info ] [MainThread]: python path: /Users/omaraly/Documents/DataScience_Resources/Courses/analytics_engineering_bootcamp/codebase/analytics-engineer-bootcamp/dbt-env/bin/python3
+[0m08:22:30.083998 [info ] [MainThread]: os info: macOS-14.3.1-arm64-arm-64bit
+[0m08:22:30.981270 [info ] [MainThread]: Using profiles dir at /Users/omaraly/.dbt
+[0m08:22:30.981575 [info ] [MainThread]: Using profiles.yml file at /Users/omaraly/.dbt/profiles.yml
+[0m08:22:30.981733 [info ] [MainThread]: Using dbt_project.yml file at /Users/omaraly/Documents/DataScience_Resources/Courses/analytics_engineering_bootcamp/codebase/analytics-engineer-bootcamp/dbt_project.yml
+[0m08:22:30.981892 [info ] [MainThread]: adapter type: bigquery
+[0m08:22:30.982026 [info ] [MainThread]: adapter version: 1.8.1
+[0m08:22:30.982175 [info ] [MainThread]: Configuration:
+[0m08:22:30.982304 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m08:22:30.982433 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m08:22:30.982559 [info ] [MainThread]: Required dependencies:
+[0m08:22:30.982746 [debug] [MainThread]: Executing "git --help"
+[0m08:22:31.000936 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m08:22:31.001644 [debug] [MainThread]: STDERR: "b''"
+[0m08:22:31.001865 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m08:22:31.002047 [info ] [MainThread]: Connection:
+[0m08:22:31.002309 [info ] [MainThread]:   method: oauth
+[0m08:22:31.002453 [info ] [MainThread]:   database: arched-memory-418808
+[0m08:22:31.002599 [info ] [MainThread]:   execution_project: arched-memory-418808
+[0m08:22:31.002732 [info ] [MainThread]:   schema: dbt_omar
+[0m08:22:31.002863 [info ] [MainThread]:   location: US
+[0m08:22:31.002990 [info ] [MainThread]:   priority: interactive
+[0m08:22:31.003118 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m08:22:31.003245 [info ] [MainThread]:   impersonate_service_account: None
+[0m08:22:31.003373 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m08:22:31.003500 [info ] [MainThread]:   job_retries: 1
+[0m08:22:31.003625 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m08:22:31.003753 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m08:22:31.003880 [info ] [MainThread]:   timeout_seconds: 300
+[0m08:22:31.004006 [info ] [MainThread]:   client_id: None
+[0m08:22:31.004130 [info ] [MainThread]:   token_uri: None
+[0m08:22:31.004253 [info ] [MainThread]:   dataproc_region: None
+[0m08:22:31.004380 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m08:22:31.004506 [info ] [MainThread]:   gcs_bucket: None
+[0m08:22:31.004631 [info ] [MainThread]:   dataproc_batch: None
+[0m08:22:31.005073 [info ] [MainThread]: Registered adapter: bigquery=1.8.1
+[0m08:22:31.009960 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m08:22:31.010623 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m08:22:34.020336 [debug] [MainThread]: BigQuery adapter: Got an error when attempting to create a bigquery client: 'Runtime Error
+  Failed to authenticate with supplied credentials
+  error:
+  Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.'
+[0m08:22:34.021075 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m08:22:34.021339 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m08:22:34.021493 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </Users/omaraly/Documents/DataScience_Resources/Courses/analytics_engineering_bootcamp/codebase/analytics-engineer-bootcamp/dbt_project.yml> not found
+
+[0m08:22:34.021648 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  Runtime Error
+    Failed to authenticate with supplied credentials
+    error:
+    Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m08:22:34.024314 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 4.0034156, "process_user_time": 2.236486, "process_kernel_time": 1.786956, "process_mem_max_rss": "182517760", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m08:22:34.024743 [debug] [MainThread]: Command `dbt debug` failed at 08:22:34.024670 after 4.00 seconds
+[0m08:22:34.024993 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m08:22:34.025195 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105d78430>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x16a3041c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x16a304940>]}
+[0m08:22:34.025445 [debug] [MainThread]: Flushing usage events
+[0m08:24:23.930499 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1068d3400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110fc1b80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110fc1880>]}
+
+
+============================== 08:24:23.934262 | b90c80fb-7ba9-4a59-bea9-f3c0e9cc9428 ==============================
+[0m08:24:23.934262 [info ] [MainThread]: Running with dbt=1.8.1
+[0m08:24:23.934623 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/omaraly/.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': '/Users/omaraly/Documents/DataScience_Resources/Courses/analytics_engineering_bootcamp/codebase/analytics-engineer-bootcamp/logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m08:24:23.942826 [info ] [MainThread]: dbt version: 1.8.1
+[0m08:24:23.943110 [info ] [MainThread]: python version: 3.9.6
+[0m08:24:23.943269 [info ] [MainThread]: python path: /Users/omaraly/Documents/DataScience_Resources/Courses/analytics_engineering_bootcamp/codebase/analytics-engineer-bootcamp/dbt-env/bin/python3
+[0m08:24:23.943422 [info ] [MainThread]: os info: macOS-14.3.1-arm64-arm-64bit
+[0m08:24:24.921494 [info ] [MainThread]: Using profiles dir at /Users/omaraly/.dbt
+[0m08:24:24.921822 [info ] [MainThread]: Using profiles.yml file at /Users/omaraly/.dbt/profiles.yml
+[0m08:24:24.921982 [info ] [MainThread]: Using dbt_project.yml file at /Users/omaraly/Documents/DataScience_Resources/Courses/analytics_engineering_bootcamp/codebase/analytics-engineer-bootcamp/dbt_project.yml
+[0m08:24:24.922146 [info ] [MainThread]: adapter type: bigquery
+[0m08:24:24.922281 [info ] [MainThread]: adapter version: 1.8.1
+[0m08:24:24.971808 [info ] [MainThread]: Configuration:
+[0m08:24:24.972119 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m08:24:24.972271 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m08:24:24.972410 [info ] [MainThread]: Required dependencies:
+[0m08:24:24.972628 [debug] [MainThread]: Executing "git --help"
+[0m08:24:24.992615 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m08:24:24.993270 [debug] [MainThread]: STDERR: "b''"
+[0m08:24:24.993479 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m08:24:24.993659 [info ] [MainThread]: Connection:
+[0m08:24:24.993910 [info ] [MainThread]:   method: oauth
+[0m08:24:24.994044 [info ] [MainThread]:   database: arched-memory-418808
+[0m08:24:24.994173 [info ] [MainThread]:   execution_project: arched-memory-418808
+[0m08:24:24.994299 [info ] [MainThread]:   schema: dbt_omar
+[0m08:24:24.994427 [info ] [MainThread]:   location: US
+[0m08:24:24.994551 [info ] [MainThread]:   priority: interactive
+[0m08:24:24.994679 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m08:24:24.994803 [info ] [MainThread]:   impersonate_service_account: None
+[0m08:24:24.994926 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m08:24:24.995055 [info ] [MainThread]:   job_retries: 1
+[0m08:24:24.995182 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m08:24:24.995308 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m08:24:24.995430 [info ] [MainThread]:   timeout_seconds: 300
+[0m08:24:24.995555 [info ] [MainThread]:   client_id: None
+[0m08:24:24.995678 [info ] [MainThread]:   token_uri: None
+[0m08:24:24.995803 [info ] [MainThread]:   dataproc_region: None
+[0m08:24:24.995927 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m08:24:24.996049 [info ] [MainThread]:   gcs_bucket: None
+[0m08:24:24.996170 [info ] [MainThread]:   dataproc_batch: None
+[0m08:24:24.996580 [info ] [MainThread]: Registered adapter: bigquery=1.8.1
+[0m08:24:25.001456 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m08:24:25.002111 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m08:24:31.021631 [debug] [MainThread]: BigQuery adapter: Got an error when attempting to create a bigquery client: 'Runtime Error
+  Failed to authenticate with supplied credentials
+  error:
+  Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.'
+[0m08:24:31.027547 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m08:24:31.028401 [info ] [MainThread]: [31m1 check failed:[0m
+[0m08:24:31.029154 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  Runtime Error
+    Failed to authenticate with supplied credentials
+    error:
+    Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m08:24:31.036261 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 7.1476912, "process_user_time": 2.2357, "process_kernel_time": 1.869132, "process_mem_max_rss": "180355072", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m08:24:31.038990 [debug] [MainThread]: Command `dbt debug` failed at 08:24:31.038436 after 7.15 seconds
+[0m08:24:31.042227 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m08:24:31.043436 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1068d3400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x137cc2310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x137cc2400>]}
+[0m08:24:31.044399 [debug] [MainThread]: Flushing usage events
